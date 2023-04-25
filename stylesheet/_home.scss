@@ -1,0 +1,45 @@
+body {
+    background-color: azure;
+}
+
+header {
+    height: 150px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    position: relative;
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    position: absolute;
+    transition: 500ms;
+    top: 0px;
+}
+
+.box1 {
+    background-color: red;
+    
+    
+}
+
+.box2 {
+    background-color: green;
+    left: 150px;
+}
+
+.box3 {
+    background-color: blue;
+    left: 300px;
+}
+
+.box-move-down {
+    top: 300px;
+    
+}
